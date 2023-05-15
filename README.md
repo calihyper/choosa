@@ -1,5 +1,5 @@
 # Introduction
-choosa is a model that fine-tuned the StableDiffsuion_v1-5 model with the TextualInversion method for Korean traditional paintings.
+choosa is a model that fine-tuned the [StableDiffsuion_v1-5 model](https://github.com/runwayml/stable-diffusion) with the [Textual Inversion](https://huggingface.co/docs/diffusers/training/text_inversion) method for Korean traditional paintings.
 
 # environment
 
