@@ -77,6 +77,27 @@ out_image = pipe(
 ).images[0]
 ```
 # examples
+### Text To Image
+<img src="./example_imgs/text_to_img/image_1.png" width ="300" height="300">   
+prompt : a painting of village around mountain   
+style prompt :<trad-kor-landscape-ink-wash-painting>   
+negative prompt : chiense latter    
+inference steps : 30   
+gudiance scale : 2.8    
+<img src="./example_imgs/text_to_img/image_2.png" width="300" height="300">       
+prompt :a painting of a bird on branch with flowers    
+style prompt :<trad-kor-plants-color>    
+negative prompt : chinese letter    
+inference steps : 30    
+gudiance scale : 2.5    
+<img src="./example_imgs/text_to_img/image_3.png" width="300" height="300">   
+prompt : a painting of Eiffel tower in Paris   
+style prompt : <trad-kor-landscape-thick-brush-strokes>   
+negative prompt : chiense letter   
+inference steps : 20   
+gudiance scale : 4   
+seed : 3   
+    
 
 
 
