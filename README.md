@@ -139,6 +139,7 @@ out_image = pipe(
 
 
 # Reference
+1. https://huggingface.co/calihyper
 1. https://arxiv.org/abs/2302.05543
 2. https://github.com/huggingface/diffusers/tree/main/src/diffusers/pipelines
 3. https://huggingface.co/blog/controlnet
