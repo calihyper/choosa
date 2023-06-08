@@ -79,9 +79,6 @@ out_image = pipe(
 # examples
 
 
-# License
-
-
 
 # Reference
 1. https://arxiv.org/abs/2302.05543
