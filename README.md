@@ -77,26 +77,63 @@ out_image = pipe(
 ).images[0]
 ```
 # examples
-### Text To Image
+## Text To Image
 <img src="./example_imgs/text_to_img/image_1.png" width ="300" height="300">   
-prompt : a painting of village around mountain   
-style prompt :<trad-kor-landscape-ink-wash-painting>   
-negative prompt : chiense latter    
-inference steps : 30   
-gudiance scale : 2.8    
-<img src="./example_imgs/text_to_img/image_2.png" width="300" height="300">       
-prompt :a painting of a bird on branch with flowers    
-style prompt :<trad-kor-plants-color>    
-negative prompt : chinese letter    
-inference steps : 30    
-gudiance scale : 2.5    
-<img src="./example_imgs/text_to_img/image_3.png" width="300" height="300">   
-prompt : a painting of Eiffel tower in Paris   
-style prompt : <trad-kor-landscape-thick-brush-strokes>   
-negative prompt : chiense letter   
-inference steps : 20   
-gudiance scale : 4   
-seed : 3   
+
+**prompt** : a painting of village around mountain    
+**style prompt** : trad-kor-landscape-ink-wash-painting    
+**negative prompt** : chiense latter     
+**inference steps** : 30    
+**gudiance scale** : 2.8     
+    
+<img src="./example_imgs/text_to_img/image_2.png" width="300" height="300">      
+    
+**prompt** : a painting of a bird on branch with flowers     
+**style prompt** : trad-kor-plants-color     
+**negative prompt** : chinese letter    
+**inference steps** : 30    
+**gudiance scale** : 2.5    
+    
+<img src="./example_imgs/text_to_img/image_3.png" width="300" height="300">    
+    
+**prompt** : a painting of Eiffel tower in Paris   
+**style prompt** : trad-kor-landscape-thick-brush-strokes   
+**negative prompt** : chiense letter   
+**inference steps** : 20   
+**gudiance scale** : 4   
+**seed** : 3   
+
+## ControlNet-Canny
+<img src="./example_imgs/controlnet_canny/detecting_image_1.png" width="300" height="300"> <img src="./example_imgs/controlnet_canny/image_1.png" width="300" height="300">    
+**prompt** : a painting of central park in newyork, trees on right side, road on middle of painting, buildings on background    
+**style prompt** : trad-kor-landscape-ink-wash-painting    
+**negative prompt** : chinese letter, river    
+**inference steps** : 30    
+**gudiance scale** : 2.3    
+**seed** : 3    
+**low threshold** : 120    
+**high threshold** : 120    
+    
+<img src="./example_imgs/controlnet_canny/detecting_image_2.png" width="300" height="300"> <img src="./example_imgs/controlnet_canny/image_2.png" width="300" height="300">    
+**prompt** : a painting of mountain with many trees, trees on foreground   
+**style prompt** : trad-kor-landscape-thick-brush-strokes        
+**negative prompt** : chinese letter, river    
+**inference steps** : 30    
+**gudiance scale** : 2.3    
+**seed** : 3    
+**low threshold** : 200    
+**high threshold** : 200    
+
+<img src="./example_imgs/controlnet_canny/detecting_image_3.png" width="300" height="300"> <img src="./example_imgs/controlnet_canny/image_3.png" width="300" height="300">    
+**prompt** : a painting of coast, mountain on side, trees on foreground    
+**style prompt** : trad-kor-landscape-ink-wash-painting    
+**negative prompt** : chinese letter     
+**inference steps** : 30    
+**gudiance scale** : 2.5    
+**seed** : 3    
+**low threshold** : 120    
+**high threshold** : 200    
+
     
 
 
