@@ -4,8 +4,8 @@
 # environment
 **Installing the dependencies**    
 ```python
-pip install .  # first
-pip install -r requirements.txt # Second
+pip install . 
+pip install -r requirements.txt
 ```
 
 # inference
